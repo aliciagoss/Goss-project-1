@@ -1,0 +1,9 @@
+header {
+    float: right;
+    list-style-type: none;
+}
+
+/* remove bullets */
+.nav-bar{
+    list-style-type: none;
+}
