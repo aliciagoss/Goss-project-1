@@ -19,3 +19,7 @@ margin right: auto;
 .text-block {
   text-align: center;
 }
+
+.social-icon {
+    float: left;
+}
