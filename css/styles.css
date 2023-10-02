@@ -1,25 +1,135 @@
-container-regular {
+body{
+  background-color: whitesmoke;
+font-family: helvetica;
+}
+
+.nav{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+  }
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:25px;
+    padding-right: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 140px;
+  left: 16px;
+}
+
+h1{font-family: 'Open Sans Condensed', sans-serif;
+font-size: 30px;}
+
+input{
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #DDA0DD;
+  margin: 5px;
+
+}
+
+aside{
+  float: right;
+  position: relative;
+}
+
+label{
+font-family: 'Open Sans Condensed', sans-serif;
 width: 100%;
-max-width: 1260px;
-min-height: 30px;
-margin-left: auto;
-margin right: auto;
+padding: 5px;
+margin: 5px;
 }
 
-.section {
-  min-height: 250px;
+textarea{
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #DDA0DD;
+  padding: 10px;
+
 }
 
-. {
+button{
+  background-color: #DDA0DD;
+   border: none;
+   color: white;
+   padding: 8px 16px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 4px;
+   float: right;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+h2 {
+
+  font-size: 18px;
+  margin-right: 120px;
+}
+
+h3{
+
+  font-size: 14px;
+  margin-right: 120px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: pink;
+}
+
+.nav-item:hover, .nav-item.selected {
+     background-color: pink;
+     border-radius: 4px;
+     color: white;
+}
+
+a.current:link, a.current:visited {
+  color: pink;
+
+}
+
+.text-center {
   text-align: center;
-  margin-top: 76px;
-  font-family: Vollkorn, serif;
+  background: pink;
 }
-
-.text-block {
-  text-align: center;
-}
-
-.social-icon {
-    float: left;
+  
+.contact {
+  float:left;
 }
